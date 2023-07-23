@@ -12,8 +12,8 @@ function handleSlider(e) {
   const index = attr(target, "data-index");
 
   list.forEach((li) => removeClass(li, "is-active"));
-
   addClass(target, "is-active");
+
   setImage(index);
   setBgColor(index);
   setNameText(index);
